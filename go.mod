@@ -10,7 +10,7 @@ require (
 	github.com/dgryski/go-lttb v0.0.0-20180810165845-318fcdf10a77
 	github.com/google/go-cmp v0.2.0
 	github.com/influxdata/tdigest v0.0.0-20180711151920-a7d76c6f093a
-	github.com/mailru/easyjson v0.7.0
+	github.com/mailru/easyjson v0.7.7
 	github.com/miekg/dns v1.1.25
 	github.com/streadway/quantile v0.0.0-20150917103942-b0c588724d25
 	github.com/tsenart/go-tsz v0.0.0-20180814232043-cdeb9e1e981e
@@ -26,6 +26,7 @@ require (
 	github.com/gonum/mathext v0.0.0-20181121095525-8a4bf007ea55 // indirect
 	github.com/gonum/matrix v0.0.0-20181209220409-c518dec07be9 // indirect
 	github.com/gonum/stat v0.0.0-20181125101827-41a0da705a5b // indirect
+	github.com/josharian/intern v1.0.0 // indirect
 	golang.org/x/crypto v0.0.0-20190923035154-9ee001bba392 // indirect
 	golang.org/x/sys v0.0.0-20190924154521-2837fb4f24fe // indirect
 	golang.org/x/text v0.3.2 // indirect
