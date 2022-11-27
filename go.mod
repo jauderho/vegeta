@@ -11,10 +11,10 @@ require (
 	github.com/google/go-cmp v0.2.0
 	github.com/influxdata/tdigest v0.0.0-20180711151920-a7d76c6f093a
 	github.com/mailru/easyjson v0.7.0
-	github.com/miekg/dns v1.1.25
+	github.com/miekg/dns v1.1.50
 	github.com/streadway/quantile v0.0.0-20150917103942-b0c588724d25
 	github.com/tsenart/go-tsz v0.0.0-20180814232043-cdeb9e1e981e
-	golang.org/x/net v0.0.0-20190923162816-aa69164e4478
+	golang.org/x/net v0.0.0-20210726213435-c6fcb2dbf985
 	pgregory.net/rapid v0.3.3
 )
 
@@ -26,7 +26,9 @@ require (
 	github.com/gonum/mathext v0.0.0-20181121095525-8a4bf007ea55 // indirect
 	github.com/gonum/matrix v0.0.0-20181209220409-c518dec07be9 // indirect
 	github.com/gonum/stat v0.0.0-20181125101827-41a0da705a5b // indirect
-	golang.org/x/crypto v0.0.0-20190923035154-9ee001bba392 // indirect
-	golang.org/x/sys v0.0.0-20190924154521-2837fb4f24fe // indirect
-	golang.org/x/text v0.3.2 // indirect
+	golang.org/x/mod v0.4.2 // indirect
+	golang.org/x/sys v0.0.0-20210630005230-0f9fa26af87c // indirect
+	golang.org/x/text v0.3.6 // indirect
+	golang.org/x/tools v0.1.6-0.20210726203631-07bc1bf47fb2 // indirect
+	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
 )
