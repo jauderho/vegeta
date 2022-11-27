@@ -8,7 +8,7 @@ require (
 	github.com/c2h5oh/datasize v0.0.0-20171227191756-4eba002a5eae
 	github.com/dgryski/go-gk v0.0.0-20140819190930-201884a44051
 	github.com/dgryski/go-lttb v0.0.0-20180810165845-318fcdf10a77
-	github.com/google/go-cmp v0.2.0
+	github.com/google/go-cmp v0.5.9
 	github.com/influxdata/tdigest v0.0.0-20180711151920-a7d76c6f093a
 	github.com/mailru/easyjson v0.7.0
 	github.com/miekg/dns v1.1.25
