@@ -7,7 +7,7 @@ import (
 	"testing"
 	"unsafe"
 
-	golttb "github.com/dgryski/go-lttb"
+	golttb "github.com/atuleu/go-lttb"
 	"github.com/google/go-cmp/cmp"
 )
 
