@@ -21,7 +21,7 @@ require (
 require (
 	github.com/iancoleman/orderedmap v0.2.0 // indirect
 	github.com/josharian/intern v1.0.0 // indirect
-	golang.org/x/exp v0.0.0-20221215174704-0915cd710c24 // indirect
+	golang.org/x/exp v0.0.0-20221217163422-3c43f8badb15 // indirect
 	golang.org/x/mod v0.7.0 // indirect
 	golang.org/x/sys v0.3.0 // indirect
 	golang.org/x/text v0.5.0 // indirect
