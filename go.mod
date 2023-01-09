@@ -15,7 +15,7 @@ require (
 	github.com/streadway/quantile v0.0.0-20220407130108-4246515d968d
 	github.com/tsenart/go-tsz v0.0.0-20180814235614-0bd30b3df1c3
 	golang.org/x/net v0.4.0
-	pgregory.net/rapid v0.5.3
+	pgregory.net/rapid v0.5.5
 )
 
 require (
