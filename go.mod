@@ -12,7 +12,7 @@ require (
 	github.com/influxdata/tdigest v0.0.1
 	github.com/mailru/easyjson v0.7.7
 	github.com/miekg/dns v1.1.54
-	github.com/streadway/quantile v0.0.0-20220407130108-4246515d968d
+	github.com/streadway/quantile v0.0.0-20150917103942-b0c588724d25
 	github.com/tsenart/go-tsz v0.0.0-20180814235614-0bd30b3df1c3
 	golang.org/x/net v0.10.0
 	pgregory.net/rapid v0.5.7
