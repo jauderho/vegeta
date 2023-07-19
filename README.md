@@ -1,8 +1,16 @@
 # Vegeta [![Build Status](https://github.com/tsenart/vegeta/workflows/CI/badge.svg)](https://github.com/tsenart/vegeta/actions) [![Go Report Card](https://goreportcard.com/badge/github.com/tsenart/vegeta)](https://goreportcard.com/report/github.com/tsenart/vegeta) [![PkgGoDev](https://pkg.go.dev/badge/github.com/tsenart/vegeta/v12/lib)](https://pkg.go.dev/github.com/tsenart/vegeta/v12/lib) [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/tsenart/vegeta?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge) [![Donate](https://img.shields.io/badge/donate-bitcoin-yellow.svg)](#donate)
 
 Vegeta is a versatile HTTP load testing tool built out of a need to drill
-HTTP services with a constant request rate.
-It can be used both as a command line utility and a library.
+HTTP services with a constant request rate. [It's over 9000!](https://en.wikipedia.org/wiki/It's_Over_9000)
+
+## Features
+
+- Usable as a command line tool and a Go library.
+- CLI designed with UNIX composability in mind.
+- [Avoids](https://github.com/tsenart/vegeta/pull/92/files#r20198929) nasty [Coordinated Omission](http://highscalability.com/blog/2015/10/5/your-load-generator-is-probably-lying-to-you-take-the-red-pi.html).
+- Extensive reporting functionality.
+- Simple to use for [distributed load testing](https://kubernetes.io/blog/2015/11/one-million-requests-per-second-dependable-and-dynamic-distributed-systems-at-scale/).
+- Easy to install and run (static binary, package managers, etc).
 
 ![Vegeta](http://fc09.deviantart.net/fs49/i/2009/198/c/c/ssj2_vegeta_by_trunks24.jpg)
 
