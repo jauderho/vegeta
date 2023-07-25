@@ -79,7 +79,7 @@ Usage: vegeta [global flags] <command> [command flags]
 
 global flags:
   -cpus int
-    	Number of CPUs to use (defaults to the number of CPUs you have)
+    	Number of CPUs to use (default = number of cpus)
   -profile string
     	Enable profiling of [cpu, heap]
   -version
@@ -126,6 +126,8 @@ attack command:
     	Attack name
   -output string
     	Output file (default "stdout")
+  -prometheus-addr string
+    	Prometheus exporter listen address [empty = disabled]. Example: 0.0.0.0:8880
   -proxy-header value
     	Proxy CONNECT header
   -rate value
@@ -137,7 +139,7 @@ attack command:
   -root-certs value
     	TLS root certificate files (comma separated list)
   -session-tickets
-    	Enable TLS session resumption support using session tickets (default false)
+    	Enable TLS session resumption using session tickets
   -targets string
     	Targets file (default "stdin")
   -timeout duration
@@ -176,6 +178,7 @@ examples:
   vegeta report -type=json results.bin > metrics.json
   cat results.bin | vegeta plot > plot.html
   cat results.bin | vegeta report -type="hist[0,100ms,200ms,300ms]"
+
 ```
 
 #### `-cpus`
@@ -783,6 +786,8 @@ It'll read and sort them by timestamp before generating reports.
 vegeta report *.bin
 ```
 
+Another way to gather results in distributed tests is to use the built-in Prometheus Exporter and configure a Prometheus Server to get test results from all Vegeta instances. See `attack` option "prometheus-addr" for more details and a complete example in the section "Prometheus Support".
+
 ## Usage: Real-time Analysis
 
 If you are a happy user of iTerm, you can integrate vegeta with [jplot](https://github.com/rs/jplot) using [jaggr](https://github.com/rs/jaggr) to plot a vegeta report in real-time in the comfort of your terminal:
@@ -802,7 +807,7 @@ echo 'GET http://localhost:8080' | \
 
 ![](https://i.imgur.com/ttBDsQS.gif)
 
-## Usage (Library)
+## Usage: Library
 
 The library versioning follows [SemVer v2.0.0](https://semver.org/spec/v2.0.0.html).
 Since [lib/v9.0.0](https://github.com/tsenart/vegeta/tree/lib/v9.0.0), the library and cli
@@ -858,6 +863,36 @@ $ ulimit -u # processes / threads
 ```
 
 Just pass a new number as the argument to change it.
+
+## Prometheus support
+
+Vegeta has a built-in Prometheus Exporter that may be enabled during attacks so that you can point any Prometheus instance to Vegeta attack processes and monitor attack metrics.
+
+To enable the Prometheus Exporter on the command line, set the "prometheus-addr" flag.
+
+A Prometheus HTTP endpoint will be available only during the lifespan of an attack and will be closed right after the attack is finished.
+
+The following metrics are exposed:
+
+* `request_bytes_in` - bytes count received from targeted servers by "url", "method" and "status"
+* `request_bytes_out` - bytes count sent to targeted server by "url", "method" and "status"
+* `request_seconds` - histogram with request latency and counters by "url", "method" and "status"
+* `request_fail_count` - count of failed requests by "url", "method", "status" and "message"
+
+<image src="lib/prom/prometheus-sample.png" width="500" />
+
+Check file [lib/prom/grafana.json](lib/prom/grafana.json) with the source of this sample dashboard in Grafana.
+
+### Limitations
+
+1. Prometheus scrapes metrics from a running vegeta attack process and assigns timestamps to samples on its server. This means result timestamps aren't accurate (i.e. they're scraping time, not result time).
+2. Configuring Prometheus to scrape vegeta needs to happen out-of-band. That's a hassle!
+3. Since there's no coordination between a vegeta attack process and a Prometheus server, an attack process will finish before Prometheus has the chance to scrape the latest observations.
+
+
+Why aren't we using pushgateway instead? See [this comment](https://github.com/tsenart/vegeta/pull/534#issuecomment-1629943731).
+
+There's [an issue](https://github.com/tsenart/vegeta/issues/637) tracking the proper solution to all these limitations which is a remote write integration.
 
 ## License
 
