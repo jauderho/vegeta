@@ -11,7 +11,7 @@ require (
 	github.com/google/go-cmp v0.5.9
 	github.com/influxdata/tdigest v0.0.1
 	github.com/mailru/easyjson v0.7.7
-	github.com/miekg/dns v1.1.55
+	github.com/miekg/dns v1.1.56
 	github.com/prometheus/client_golang v1.16.0
 	github.com/prometheus/prometheus v0.47.0
 	github.com/rs/dnscache v0.0.0-20230804202142-fc85eb664529
