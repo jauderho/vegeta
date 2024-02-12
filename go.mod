@@ -17,7 +17,7 @@ require (
 	github.com/rs/dnscache v0.0.0-20230804202142-fc85eb664529
 	github.com/streadway/quantile v0.0.0-20220407130108-4246515d968d
 	github.com/tsenart/go-tsz v0.0.0-20180814235614-0bd30b3df1c3
-	golang.org/x/net v0.20.0
+	golang.org/x/net v0.21.0
 	pgregory.net/rapid v1.1.0
 )
 
