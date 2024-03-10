@@ -19,7 +19,7 @@ require (
 	github.com/rs/dnscache v0.0.0-20230804202142-fc85eb664529
 	github.com/streadway/quantile v0.0.0-20220407130108-4246515d968d
 	github.com/tsenart/go-tsz v0.0.0-20180814235614-0bd30b3df1c3
-	golang.org/x/net v0.21.0
+	golang.org/x/net v0.22.0
 	pgregory.net/rapid v1.1.0
 )
 
@@ -31,13 +31,13 @@ require (
 	github.com/iancoleman/orderedmap v0.3.0 // indirect
 	github.com/josharian/intern v1.0.0 // indirect
 	github.com/prometheus/client_model v0.6.0 // indirect
-	github.com/prometheus/common v0.49.0 // indirect
-	github.com/prometheus/procfs v0.12.0 // indirect
+	github.com/prometheus/common v0.50.0 // indirect
+	github.com/prometheus/procfs v0.13.0 // indirect
 	golang.org/x/exp v0.0.0-20240222234643-814bf88cf225 // indirect
-	golang.org/x/mod v0.15.0 // indirect
+	golang.org/x/mod v0.16.0 // indirect
 	golang.org/x/sync v0.6.0 // indirect
-	golang.org/x/sys v0.17.0 // indirect
+	golang.org/x/sys v0.18.0 // indirect
 	golang.org/x/text v0.14.0 // indirect
-	golang.org/x/tools v0.18.0 // indirect
-	google.golang.org/protobuf v1.32.0 // indirect
+	golang.org/x/tools v0.19.0 // indirect
+	google.golang.org/protobuf v1.33.0 // indirect
 )
