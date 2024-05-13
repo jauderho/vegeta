@@ -14,7 +14,7 @@ require (
 	github.com/influxdata/tdigest v0.0.1
 	github.com/mailru/easyjson v0.7.7
 	github.com/miekg/dns v1.1.59
-	github.com/prometheus/client_golang v1.19.0
+	github.com/prometheus/client_golang v1.19.1
 	github.com/prometheus/prometheus v0.51.2
 	github.com/rs/dnscache v0.0.0-20230804202142-fc85eb664529
 	github.com/streadway/quantile v0.0.0-20220407130108-4246515d968d
