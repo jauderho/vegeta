@@ -12,7 +12,7 @@ require (
 	github.com/dgryski/go-lttb v0.0.0-20230207170358-f8fc36cdbff1
 	github.com/google/go-cmp v0.6.0
 	github.com/influxdata/tdigest v0.0.1
-	github.com/mailru/easyjson v0.7.7
+	github.com/mailru/easyjson v0.9.0
 	github.com/miekg/dns v1.1.62
 	github.com/prometheus/client_golang v1.20.5
 	github.com/prometheus/prometheus v0.300.1
@@ -35,7 +35,7 @@ require (
 	github.com/prometheus/client_model v0.6.1 // indirect
 	github.com/prometheus/common v0.61.0 // indirect
 	github.com/prometheus/procfs v0.15.1 // indirect
-	golang.org/x/exp v0.0.0-20241210194714-1829a127f884 // indirect
+	golang.org/x/exp v0.0.0-20241215155358-4a5509556b9e // indirect
 	golang.org/x/mod v0.22.0 // indirect
 	golang.org/x/sync v0.10.0 // indirect
 	golang.org/x/sys v0.28.0 // indirect
