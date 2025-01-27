@@ -13,7 +13,7 @@ require (
 	github.com/google/go-cmp v0.6.0
 	github.com/influxdata/tdigest v0.0.1
 	github.com/mailru/easyjson v0.9.0
-	github.com/miekg/dns v1.1.62
+	github.com/miekg/dns v1.1.63
 	github.com/prometheus/client_golang v1.20.5
 	github.com/prometheus/prometheus v0.301.0
 	github.com/rs/dnscache v0.0.0-20230804202142-fc85eb664529
@@ -41,5 +41,5 @@ require (
 	golang.org/x/sys v0.29.0 // indirect
 	golang.org/x/text v0.21.0 // indirect
 	golang.org/x/tools v0.29.0 // indirect
-	google.golang.org/protobuf v1.36.3 // indirect
+	google.golang.org/protobuf v1.36.4 // indirect
 )
