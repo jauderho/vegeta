@@ -1,6 +1,6 @@
 module github.com/tsenart/vegeta/v12
 
-go 1.22.7
+go 1.23.0
 
 toolchain go1.23.2
 
@@ -10,12 +10,12 @@ require (
 	github.com/c2h5oh/datasize v0.0.0-20231215233829-aa82cc1e6500
 	github.com/dgryski/go-gk v0.0.0-20200319235926-a69029f61654
 	github.com/dgryski/go-lttb v0.0.0-20230207170358-f8fc36cdbff1
-	github.com/google/go-cmp v0.6.0
+	github.com/google/go-cmp v0.7.0
 	github.com/influxdata/tdigest v0.0.1
 	github.com/mailru/easyjson v0.9.0
 	github.com/miekg/dns v1.1.63
-	github.com/prometheus/client_golang v1.20.5
-	github.com/prometheus/prometheus v0.301.0
+	github.com/prometheus/client_golang v1.21.0
+	github.com/prometheus/prometheus v0.302.0
 	github.com/rs/dnscache v0.0.0-20230804202142-fc85eb664529
 	github.com/streadway/quantile v0.0.0-20220407130108-4246515d968d
 	github.com/tsenart/go-tsz v0.0.0-20180814235614-0bd30b3df1c3
@@ -30,12 +30,12 @@ require (
 	github.com/grafana/regexp v0.0.0-20240518133315-a468a5bfb3bc // indirect
 	github.com/iancoleman/orderedmap v0.3.0 // indirect
 	github.com/josharian/intern v1.0.0 // indirect
-	github.com/klauspost/compress v1.17.11 // indirect
+	github.com/klauspost/compress v1.18.0 // indirect
 	github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822 // indirect
 	github.com/prometheus/client_model v0.6.1 // indirect
 	github.com/prometheus/common v0.62.0 // indirect
 	github.com/prometheus/procfs v0.15.1 // indirect
-	golang.org/x/exp v0.0.0-20250210185358-939b2ce775ac // indirect
+	golang.org/x/exp v0.0.0-20250218142911-aa4b98e5adaa // indirect
 	golang.org/x/mod v0.23.0 // indirect
 	golang.org/x/sync v0.11.0 // indirect
 	golang.org/x/sys v0.30.0 // indirect
