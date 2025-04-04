@@ -19,7 +19,7 @@ require (
 	github.com/rs/dnscache v0.0.0-20230804202142-fc85eb664529
 	github.com/streadway/quantile v0.0.0-20220407130108-4246515d968d
 	github.com/tsenart/go-tsz v0.0.0-20180814235614-0bd30b3df1c3
-	golang.org/x/net v0.37.0
+	golang.org/x/net v0.38.0
 	pgregory.net/rapid v1.2.0
 )
 
@@ -41,5 +41,5 @@ require (
 	golang.org/x/sys v0.31.0 // indirect
 	golang.org/x/text v0.23.0 // indirect
 	golang.org/x/tools v0.31.0 // indirect
-	google.golang.org/protobuf v1.36.5 // indirect
+	google.golang.org/protobuf v1.36.6 // indirect
 )
