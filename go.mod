@@ -13,13 +13,13 @@ require (
 	github.com/google/go-cmp v0.7.0
 	github.com/influxdata/tdigest v0.0.1
 	github.com/mailru/easyjson v0.9.0
-	github.com/miekg/dns v1.1.66
-	github.com/prometheus/client_golang v1.22.0
-	github.com/prometheus/prometheus v0.304.2
+	github.com/miekg/dns v1.1.67
+	github.com/prometheus/client_golang v1.23.0
+	github.com/prometheus/prometheus v0.305.0
 	github.com/rs/dnscache v0.0.0-20230804202142-fc85eb664529
 	github.com/streadway/quantile v0.0.0-20220407130108-4246515d968d
 	github.com/tsenart/go-tsz v0.0.0-20180814235614-0bd30b3df1c3
-	golang.org/x/net v0.41.0
+	golang.org/x/net v0.42.0
 	pgregory.net/rapid v1.2.0
 )
 
@@ -33,12 +33,12 @@ require (
 	github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822 // indirect
 	github.com/prometheus/client_model v0.6.2 // indirect
 	github.com/prometheus/common v0.65.0 // indirect
-	github.com/prometheus/procfs v0.16.1 // indirect
-	golang.org/x/exp v0.0.0-20250620022241-b7579e27df2b // indirect
-	golang.org/x/mod v0.25.0 // indirect
-	golang.org/x/sync v0.15.0 // indirect
-	golang.org/x/sys v0.33.0 // indirect
-	golang.org/x/text v0.26.0 // indirect
-	golang.org/x/tools v0.34.0 // indirect
+	github.com/prometheus/procfs v0.17.0 // indirect
+	golang.org/x/exp v0.0.0-20250718183923-645b1fa84792 // indirect
+	golang.org/x/mod v0.26.0 // indirect
+	golang.org/x/sync v0.16.0 // indirect
+	golang.org/x/sys v0.34.0 // indirect
+	golang.org/x/text v0.27.0 // indirect
+	golang.org/x/tools v0.35.0 // indirect
 	google.golang.org/protobuf v1.36.6 // indirect
 )
