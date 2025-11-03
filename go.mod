@@ -15,7 +15,7 @@ require (
 	github.com/mailru/easyjson v0.9.1
 	github.com/miekg/dns v1.1.68
 	github.com/prometheus/client_golang v1.23.2
-	github.com/prometheus/prometheus v0.307.2
+	github.com/prometheus/prometheus v0.307.3
 	github.com/rs/dnscache v0.0.0-20230804202142-fc85eb664529
 	github.com/streadway/quantile v0.0.0-20220407130108-4246515d968d
 	github.com/tsenart/go-tsz v0.0.0-20180814235614-0bd30b3df1c3
@@ -33,8 +33,8 @@ require (
 	github.com/kr/text v0.2.0 // indirect
 	github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822 // indirect
 	github.com/prometheus/client_model v0.6.2 // indirect
-	github.com/prometheus/common v0.67.1 // indirect
-	github.com/prometheus/procfs v0.18.0 // indirect
+	github.com/prometheus/common v0.67.2 // indirect
+	github.com/prometheus/procfs v0.19.2 // indirect
 	go.yaml.in/yaml/v2 v2.4.3 // indirect
 	golang.org/x/exp v0.0.0-20251023183803-a4bb9ffd2546 // indirect
 	golang.org/x/mod v0.29.0 // indirect
